@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             ,"Amor se sente minha falta, me chama, eu vou corrente até você."
             ,"Você está triste? Você não tem motivo pra isso, por que eu te amo."
             ,"Você é a escolhida, a minha princesa e a Rainha do meu coração. TE AMO!"
-            ,"Eu sem você sou só desamor. Um barco sem mar, um campo sem flor. Tristeza que vai, tristeza que vem. Sem você, meu amor, eu não sou ninguém?"
+            ,"Eu sem você sou só desamor. Um barco sem mar, um campo sem flor. Tristeza que vai, tristeza que vem. Sem você, meu amor, eu não sou ninguém."
             ,"Hey, não consigo parar de pensar em você."
             ,"Eu te amo e vou gritar pra todo mundo ouvir, ter você é meu desejo de viver."
             ,"Nem todos os anjos têm asas, às vezes, eles têm apenas o dom de te apaixonar, como você"
@@ -69,8 +69,6 @@ public class MainActivity extends AppCompatActivity {
         tela.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
 
                 Random r = new Random();
                 int aleatorio = r.nextInt(frases.length);
